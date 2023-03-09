@@ -1,0 +1,8 @@
+# first step creat school file using touch
+# after that use your favorite editor (vim or emacs etc..) copy and past this command
+0 string SCHOOL	data
+!:mime School
+# don't forget to save it :p
+# finally run this command file -C -m school and the file school.mgc will appear
+# add commit and push.
+# Congratulations you are done. 

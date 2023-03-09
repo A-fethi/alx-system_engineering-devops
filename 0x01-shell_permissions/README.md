@@ -12,4 +12,7 @@
 11. Directories ==> a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.<hr>
 12. More directories ==> a script that creates a directory called my_dir with permissions 751 in the working directory.<hr>
 13. Change group ==> a script that changes the group owner to school for the file hello.<hr>
-
+14. Owner and group ==> a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.<hr>
+15. Symbolic links ==> Write a script that changes the owner and the group owner of _hello to vincent and staff respectively. The file _hello is in the working directory, The file _hello is a symbolic link._<hr>
+16. If only ==> a script that changes the owner of the file hello to betty only if it is owned by the user guillaume.<hr>
+17. Star Wars ==> a script that will play the StarWars IV episode in the terminal.

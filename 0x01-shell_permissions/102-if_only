@@ -1,2 +1,2 @@
 #!/bin/bash
-chown betty hello if{!$USERNAME=guillaume}
+chown --from=guillaume:betty hello

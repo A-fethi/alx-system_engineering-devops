@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R root hello if{$USERNAME=guillaume}
+chown betty hello if{$USERNAME=guillaume}

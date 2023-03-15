@@ -22,4 +22,5 @@
 21. esreveR ==> a script that reverse its input.<hr>
 22. DJ Cut Killer ==> a script that displays all users and their home directories, sorted by users.Based on the the /etc/passwd file.<hr>
 23. Empty casks make the most noise ==> a command that finds all empty files and directories in the current directory and all sub-directories.Only the names of the files and directories should be displayed (not the entire path).Hidden files should be listed.One file name per line.The listing should end with a new line.not allowed to use basename, grep, egrep, fgrep or rgrep.<hr>
-25. Acrostic ==> a script that decodes acrostics that use the first letter of each line. The ‘decoded’ message has to end with a new line.not allowed to use grep, egrep, fgrep or rgrep.<hr>
+24. A gif is worth ten thousand words ==> a script that lists all the files with a .gif extension in the current directory and all its sub-directories.<hr>
+25. Acrostic ==> a script that decodes acrostics that use the first letter of each line. The ‘decoded’ message has to end with a new line.not allowed to use grep, egrep, fgrep or rgrep.

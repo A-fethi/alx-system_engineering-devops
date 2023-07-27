@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Loop 20 times and prints number of each iteration
+# except the 4th iteration print bad luck from China and the 9th iteration print bad luck from Japan and the 17th iteration print bad luck from Italy
+i=0
+while [ $i -lt 20 ]
+do
+	((i++))
+	case $i in
+		4) echo $i
+			echo "bad luck from China";;
+		9) echo $i
+			echo "bad luck from Japan";;
+		17) echo $i
+			echo "bad luck from Italy";;
+		*) echo $i;;
+	esac
+done

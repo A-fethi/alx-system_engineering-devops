@@ -3,7 +3,7 @@
 i=1
 f=3
 b=5
-while [ $i -lt 100 ]
+while [ $i -lt 101 ]
 do
 	if [ $((i%f)) -eq 0 ] && [ $((i%b)) -eq 0 ]
 	then

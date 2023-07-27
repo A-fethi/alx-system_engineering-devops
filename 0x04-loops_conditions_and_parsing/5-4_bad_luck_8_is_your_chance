@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Loop 10 times and prints Best School in each iteration
+# except the 4th iteration print bad luck and the 8th iteration print good luck
+i=0
+while [ $i -lt 10 ]
+do
+	((i++))
+	if [ $i -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ $i -eq 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+done

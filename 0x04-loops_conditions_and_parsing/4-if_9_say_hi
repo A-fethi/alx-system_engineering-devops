@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Loop 10 times and prints Best School in each iteration
+# except the 9th iteration print Hi
 i=0
 while [ $i -lt 10 ]
 do

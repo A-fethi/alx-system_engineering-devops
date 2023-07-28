@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# manages manage_my_process
+if [ "$1" = "start" ]
+then
+	echo "manage_my_process started"
+	./manage_my_process &
+	pid=$(pgrep -f 101-manage_my_process)
+	echo "$pid" > /var/run/my_process.pid
+elif [ "$1" = "stop" ]
+then
+	echo "manage_my_process stopped"
+	pkill -f ./manage_my_process
+	rm -f /var/run/my_process.pid
+elif [ "$1" = "restart" ]
+then
+	echo "manage_my_process restarted"
+	pkill -f ./manage_my_process
+	rm -f /var/run/my/process.pid
+	./manage_my_process &
+        pid=$(pgrep -f 101-manage_my_process)
+        echo "$pid" > /var/run/my_process.pid
+else
+	echo "Usage: manage_my_process {start|stop|restart}"
+fi

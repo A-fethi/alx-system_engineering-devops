@@ -4,7 +4,7 @@ if [ "$1" = "start" ]
 then
 	echo "manage_my_process started"
 	./manage_my_process &
-	pid=$(pgrep -f 101-manage_my_process)
+	pid=$(pgrep -n -f 101-manage_my_process)
 	echo "$pid" > /var/run/my_process.pid
 elif [ "$1" = "stop" ]
 then
@@ -17,7 +17,7 @@ then
 	pkill -f ./manage_my_process
 	rm -f /var/run/my/process.pid
 	./manage_my_process &
-        pid=$(pgrep -f 101-manage_my_process)
+        pid=$(pgrep -n -f 101-manage_my_process)
         echo "$pid" > /var/run/my_process.pid
 else
 	echo "Usage: manage_my_process {start|stop|restart}"

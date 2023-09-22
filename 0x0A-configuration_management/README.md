@@ -15,7 +15,7 @@
 - Puppet manifests must run without error.
 
 ## Table of Contents
-### [**0-create_a_file.pp**]
+### [**0-create_a_file.pp**](https://github.com/A-fethi/alx-system_engineering-devops/blob/master/0x0A-configuration_management/0-create_a_file.pp)
 Using Puppet, create a file in `/tmp`.
 - Requirements:
 
@@ -25,14 +25,14 @@ Using Puppet, create a file in `/tmp`.
   - File group is `www-data`
   - File contains `I love Puppet`
 
-### [**1-install_a_package.pp**]
+### [**1-install_a_package.pp**](https://github.com/A-fethi/alx-system_engineering-devops/blob/master/0x0A-configuration_management/1-install_a_package.pp)
 Using Puppet, install flask from `pip3`
 - Requirement
   
   - Install `flask`
   - Version must be `2.1.0`
 
-### [**2-execute_a_command.pp**]
+### [**2-execute_a_command.pp**](https://github.com/A-fethi/alx-system_engineering-devops/blob/master/0x0A-configuration_management/2-execute_a_command.pp)
 Using Puppet, create a manifest that kills a process named `killmenow`
 - Requirement
   

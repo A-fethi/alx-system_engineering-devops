@@ -4,7 +4,7 @@
 </p>
   
 ## General Requirement & Environment
-<img src="https://github.com/TosinISOGUN/TosinISOGUN/blob/main/ALX.jpeg?raw=true" width="100" height="100" />
+<img src="https://github.com/TosinISOGUN/TosinISOGUN/blob/main/ALX.jpeg?raw=true" width="" height="" />
 
 - All files will be interpreted on `Ubuntu 20.04 LTS`
 - All files should end with a new line.

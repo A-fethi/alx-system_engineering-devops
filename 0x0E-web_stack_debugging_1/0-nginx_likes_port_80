@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Uses symbolic link to change default behavior: -s make symbolic links instead of hard links, -f remove existing destination files 
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart

@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Displays information about subdomains.
+check () {
+	line="$2 $(dig "$2"."$1" +noall +answer | tr '\t' '\n' | tail -2 | tr '\n' ' ')"
+	echo "$line" | awk '{print "The subdomain " $1 " is a " $2 " record and points to " $3}'
+}
+
+if [ $# -eq 2 ]
+then
+	check "$1" "$2"
+elif [ $# -eq 1 ]
+then
+	check "$1" "www"
+	check "$1" "lb-01"
+	check "$1" "web-01"
+	check "$1" "web-02"
+fi

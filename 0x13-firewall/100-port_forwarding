@@ -1,0 +1,7 @@
+sudo iptables -t nat -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+# `-t nat` Specifies the nat (Network Address Translation) table.
+# `-A PREROUTING` Appenda a rule to the PREROUTING chain. This chain is processed before routing decisions are made.
+# `-p tcp` Matches packets with TCP protocol
+# `--dport 8080` Specifies the destination port as 8080
+# `-j REDIRECT` Jumps to the REDIRECT target
+# `--to-port 80` Redirects the traffic to port 80

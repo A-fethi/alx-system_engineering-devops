@@ -16,9 +16,13 @@ if __name__ == "__main__":
     # todo_data = todo_response.json()
     TOTAL_NUMBER_OF_TASKS = len(todo)
     NUMBER_OF_DONE_TASKS = sum(1 for task in todo if task['completed'])
-    with open(sys.argv[1] + '.json', 'w') as file:
-        for task in todo:
-            json.dump({sys.argv[1]: [{
+    task_data = []
+    for task in todo:
+        task_info = {
                 "task": task.get("title"),
                 "completed": task.get("completed"),
-                "username": USERNAME}]}, file)
+                "username": USERNAME
+                }
+        task_data.append(task_info)
+    with open(sys.argv[1] + '.json', 'w') as file:
+        json.dump({sys.argv[1]: task_data}, file)

@@ -15,7 +15,7 @@ if __name__ == "__main__":
     TOTAL_NUMBER_OF_TASKS = len(todo)
     NUMBER_OF_DONE_TASKS = sum(1 for task in todo if task['completed'])
 
-    print("Employee {} is done with tasks ({}/{}):"
+    print("Employee {} is done with tasks({}/{}):"
           .format(EMPLOYEE_NAME, NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS))
 
     for task in todo:

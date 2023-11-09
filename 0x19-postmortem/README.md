@@ -1,4 +1,4 @@
-<h1>Issue Symmary:</h1>
+<h1>Issue Summary:</h1>
 <h2>Duration:</h2>
 <p>&emsp;:small_orange_diamond:Start Time: January 31 2023, 16:15 GMT+1</p>
 <p>&emsp;:small_orange_diamond:End Time: January 31 2023, 18:05 GMT+1</p>
@@ -14,7 +14,7 @@
 <p>&emsp;:small_orange_diamond:16:35 GMT+1: Despite increased server capacity, the site's performance continued to degrade, and users reported slow response times.</p>
 <p>&emsp;:small_orange_diamond:16:50 GMT+1: Misleadingly, the team focused on optimizing the database queries to handle the supposed traffic influx.</p>
 <p>&emsp;:small_orange_diamond:17:15 GMT+1: As the situation worsened, the incident was escalated to the engineering team.</p>
-<p>&emsp;:small_orange_diamond:17:30 GMT+1: A code review revelated a recent code deployement that contained a performance regression in the authentication module.</p>
+<p>&emsp;:small_orange_diamond:17:30 GMT+1: A code review revealed a recent code deployement that contained a performance regression in the authentication module.</p>
 <p>&emsp;:small_orange_diamond:17:45 GMT+1: The code responsible for the regression was identified and rolled back, resolving the issue.</p>
 <p>&emsp;:small_orange_diamond:18:05 GMT+1: The Blogify website was fully functional again, and performance was restored to normal.</p>
 <p align="center"><img src="https://media.tenor.com/8tgG_KyJqqwAAAAi/happy-happy-happy-happy.gif" alt="YAAAY" style="margin-right: 20px;"/><img src="https://media.tenor.com/VwNl8_HURpsAAAAC/summer-break.gif" alt="YES"/>
@@ -27,13 +27,13 @@
 
 <h2>Corrective and Preventative Measures:</h2>
 <h3>Improvements/Fixes:</h3>
-<p>&emsp;:small_orange_diamond:Implement a rigourous pre-deployement testing process, including checking the performance of the code, to prevent future regressions.</p>
-<p>&emsp;:small_orange_diamond:Elevate the platform's awarness with enhaced monitoring and alerting systems to detect anomalies quicker than a detective in mystery novel.</p>
+<p>&emsp;:small_orange_diamond:Implement a rigourous pre-deployment testing process, including checking the performance of the code, to prevent future regressions.</p>
+<p>&emsp;:small_orange_diamond:Elevate the platform's awarness with enhanced monitoring and alerting systems to detect anomalies quicker than a detective in mystery novel.</p>
 <p>&emsp;:small_orange_diamond:Consider introducing a "feature flag" system to allow for safer deployments and quicker rollbacks without turning the entire platform into a rollercoaster.</p>
 <p>&emsp;:small_orange_diamond:Schedule a post-incident review to identify lessons learned and areas for improvement in incident response, with tes and biscuits.</p>
 <h3>Tasks:</h3>
 <p>&emsp;:small_orange_diamond:Organize performance tests as part of the pre-deployment process to catch performance regressions before they cause digital traffic jams.</p>
-<p>&emsp;:small_orange_diamond:Enhace monitoring systems to send alerts faster than an espresso machine serving your favorite brew.</p>
+<p>&emsp;:small_orange_diamond:Enhance monitoring systems to send alerts faster than an espresso machine serving your favorite brew.</p>
 <p>&emsp;:small_orange_diamond:Ivestigate the implementation of a "feature flag" system for safer deployements.</p>
 <p>&emsp;:small_orange_diamond:Host a post-incident review to gather insights, share anecdotes, and create an action plan to ensure a smoother digital ride.</p>
 

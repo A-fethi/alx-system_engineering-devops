@@ -6,7 +6,7 @@
 <p>&emsp;:small_orange_diamond:The primary Blogify website was down for approximately 1 hour and 50 minutes, affecting all users who tried to access the site during that period.</p>
 <p>&emsp;:small_orange_diamond:User experience was severely disrupted, and all core functionality was unavailable.</p>
 <p>&emsp;:small_orange_diamond:Nearly 100% of users were affected, resulting in a significant service outage.</p>
-<!--<img src="https://media.tenor.com/cqLg5rGWrmQAAAAC/anger-annoyed.gif" alt="Nooo"/>-->
+<img src="https://media.tenor.com/cqLg5rGWrmQAAAAC/anger-annoyed.gif" alt="Nooo"/>
 <h2>Timeline:</h2>
 <p>&emsp;:small_orange_diamond:16:15 GMT+1: The issue was detected when an engineer received a monitoring alert for the high server load on the primary Blogify web server.</p>
 <p>&emsp;:small_orange_diamond:16:20 GMT+1: The operations team began investigating the issue, initially suspecting a sudden traffic surge.</p>
@@ -16,8 +16,8 @@
 <p>&emsp;:small_orange_diamond:17:30 GMT+1: A code review revelated a recent code deployement that contained a performance regression in the authentication module.</p>
 <p>&emsp;:small_orange_diamond:17:45 GMT+1: The code responsible for the regression was identified and rolled back, resolving the issue.</p>
 <p>&emsp;:small_orange_diamond:18:05 GMT+1: The Blogify website was fully functional again, and performance was restored to normal.</p>
-<!--<p align="center"><img src="https://media.tenor.com/8tgG_KyJqqwAAAAi/happy-happy-happy-happy.gif" alt="YAAAY" style="margin-right: 20px;"/><img src="https://media.tenor.com/VwNl8_HURpsAAAAC/summer-break.gif" alt="YES"/>
-</p>-->
+<p align="center"><img src="https://media.tenor.com/8tgG_KyJqqwAAAAi/happy-happy-happy-happy.gif" alt="YAAAY" style="margin-right: 20px;"/><img src="https://media.tenor.com/VwNl8_HURpsAAAAC/summer-break.gif" alt="YES"/>
+</p>
 <h2>Root Cause and Resolution:</h2>
 <h3>Root Cause:</h3>
 <p>&emsp;:small_orange_diamond:The root cause was a performance regression introduced during a recent code deployment. A code change in the authentication module led to excessive database queries on each user request.</p>

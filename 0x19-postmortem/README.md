@@ -6,7 +6,8 @@
 <p>&emsp;:small_orange_diamond:The primary Blogify website was down for approximately 1 hour and 50 minutes, affecting all users who tried to access the site during that period.</p>
 <p>&emsp;:small_orange_diamond:User experience was severely disrupted, and all core functionality was unavailable.</p>
 <p>&emsp;:small_orange_diamond:Nearly 100% of users were affected, resulting in a significant service outage.</p>
-<img src="https://media.tenor.com/cqLg5rGWrmQAAAAC/anger-annoyed.gif" alt="Nooo"/>
+<p align="center"><img src="https://media.tenor.com/cqLg5rGWrmQAAAAC/anger-annoyed.gif" alt="Nooo"/>
+</p>
 <h2>Timeline:</h2>
 <p>&emsp;:small_orange_diamond:16:15 GMT+1: The issue was detected when an engineer received a monitoring alert for the high server load on the primary Blogify web server.</p>
 <p>&emsp;:small_orange_diamond:16:20 GMT+1: The operations team began investigating the issue, initially suspecting a sudden traffic surge.</p>
